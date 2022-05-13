@@ -1,0 +1,24 @@
+{
+  "name": "iot885-widget-plugin-sample",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "license": "MIT",
+  "author": "hwaling",
+  "volta": {
+    "node": "16.15.0",
+    "yarn": "1.22.18"
+  },
+  "scripts": {
+    "build": "esbuild src/index.tsx --bundle --minify --sourcemap --outfile=dist/index.js"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.9",
+    "@types/react-dom": "^18.0.3",
+    "esbuild": "^0.14.39"
+  },
+  "dependencies": {
+    "iot885-plugin-core": "^1.0.5",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0"
+  }
+}

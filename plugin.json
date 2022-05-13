@@ -1,0 +1,13 @@
+{
+  "editor": {
+    "fields": [
+      {
+        "name": "value",
+        "label": "Value",
+        "type": "text",
+        "defaultValue": "test",
+        "require": true
+      }
+    ]
+  }
+}
